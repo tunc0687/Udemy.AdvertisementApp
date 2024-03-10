@@ -15,8 +15,8 @@ namespace Udemy.AdvertisementApp.DataAccess.Contexts
         }
 
         public DbSet<Advertisement> Advertisements { get; set; }
-        public DbSet<AdvertisementUser> AdvertisementUsers { get; set; }
-        public DbSet<AdvertisementUserStatus> AdvertisementUserStatuses { get; set; }
+        public DbSet<AdvertisementAppUser> AdvertisementUsers { get; set; }
+        public DbSet<AdvertisementAppUserStatus> AdvertisementUserStatuses { get; set; }
         public DbSet<AppRole> AppRoles { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<AppUserRole> AppUserRoles { get; set; }
