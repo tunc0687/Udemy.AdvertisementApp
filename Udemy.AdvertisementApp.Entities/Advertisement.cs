@@ -13,6 +13,6 @@ namespace Udemy.AdvertisementApp.Entities
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; }
 
-        public List<AdvertisementUser> AdvertisementUsers { get; set; }
+        public List<AdvertisementAppUser> AdvertisementAppUsers { get; set; }
     }
 }

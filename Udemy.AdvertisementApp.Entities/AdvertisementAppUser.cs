@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Udemy.AdvertisementApp.Entities
 {
-    public class AdvertisementUser : BaseEntity, IEntity
+    public class AdvertisementAppUser : BaseEntity, IEntity
     {
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
@@ -15,7 +15,7 @@ namespace Udemy.AdvertisementApp.Entities
         public Advertisement Advertisement { get; set; }
 
         public int AdvertisementUserStatusId { get; set; }
-        public AdvertisementUserStatus AdvertisementUserStatus { get; set; }
+        public AdvertisementAppUserStatus AdvertisementAppUserStatus { get; set; }
 
         public int MilitaryStatusId { get; set; }
         public MilitaryStatus MilitaryStatus { get; set; }
