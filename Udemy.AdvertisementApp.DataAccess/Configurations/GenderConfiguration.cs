@@ -9,11 +9,11 @@ using Udemy.AdvertisementApp.Entities;
 
 namespace Udemy.AdvertisementApp.DataAccess.Configurations
 {
-    public class AdvertisementAppUserStatusConfiguration : IEntityTypeConfiguration<AdvertisementAppUserStatus>
+    public class GenderConfiguration : IEntityTypeConfiguration<Gender>
     {
-        public void Configure(EntityTypeBuilder<AdvertisementAppUserStatus> builder)
+        public void Configure(EntityTypeBuilder<Gender> builder)
         {
-            builder.Property(x=>x.Definition).HasMaxLength(300).IsRequired();
+            builder.Property(x => x.Definition).HasMaxLength(300).IsRequired();
         }
     }
 }
