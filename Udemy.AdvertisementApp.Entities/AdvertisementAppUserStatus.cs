@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Udemy.AdvertisementApp.Entities
 {
-    public class AdvertisementUserStatus : BaseEntity, IEntity
+    public class AdvertisementAppUserStatus : BaseEntity, IEntity
     {
         public string Definition { get; set; }
 
-        public List<AdvertisementUser> AdvertisementUsers { get; set; }
+        public List<AdvertisementAppUser> AdvertisementAppUsers { get; set; }
     }
 }
