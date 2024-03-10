@@ -14,7 +14,7 @@ namespace Udemy.AdvertisementApp.Entities
         public int AdvertisementId { get; set; }
         public Advertisement Advertisement { get; set; }
 
-        public int AdvertisementUserStatusId { get; set; }
+        public int AdvertisementAppUserStatusId { get; set; }
         public AdvertisementAppUserStatus AdvertisementAppUserStatus { get; set; }
 
         public int MilitaryStatusId { get; set; }
